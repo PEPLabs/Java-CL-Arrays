@@ -1,5 +1,5 @@
 
-/**
+/** 
  * An array is a group of some predefined number of elements.
  * For instance, we could have an array of 10 ints or 10 Strings.
  *
@@ -10,7 +10,10 @@
  * https://www.learnjavaonline.org/en/Arrays
  */
 public class Lab {
-    /**
+    
+    /** 
+     * This method should return the length of the incoming array
+     *
      * @param arr the array we're getting data from.
      * @return the length of arr.
      */
@@ -20,7 +23,9 @@ public class Lab {
 
 
 
-    /**
+    /** 
+     * This method should return the element in the array at position n
+     *
      * @param arr the array we're getting data from.
      * @param n the index (number) of the element we're looking to return.
      *          Indexes in arrays start counting from zero.
@@ -31,6 +36,7 @@ public class Lab {
     }
 
     /**
+     * This method should assign the incoming val to the nth position in the array
      *
      * @param arr the array we're getting data from.
      * @param n the index (number) of the element we're looking to modify.
@@ -43,6 +49,7 @@ public class Lab {
     }
 
     /**
+     * This method should create and return a new empty array of size n
      * @param n the size of the array we wish to create
      * @return a new int array that can contain n elements.
      */
